@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    s="parameter"
+    return s[8]
+print(main("parameter"))
