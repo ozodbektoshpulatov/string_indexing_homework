@@ -6,4 +6,15 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a=0
+    if s[0] in "0123456789":
+        a+=1
+    if s[1] in "0123456789":
+        a+=1
+    if s[2] in "0123456789":
+        a+=1
+    if s[3] in "0123456789":
+        a+=1
+    if s[4] in "0123456789":
+        a+=1
+    return a
